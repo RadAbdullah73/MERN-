@@ -1,0 +1,7 @@
+https://pokeapi.co/api/v2/berry/1/
+----------------
+https://pokeapi.co/api/v2/pokemon/bulbasaur/
+------------------
+https://pokeapi.co/api/v2/pokemon/35/
+------------------
+https://pokeapi.co/api/v2/pokemon/5/

@@ -1,0 +1,24 @@
+undefined
+-------------
+magnet
+-----------
+super cool
+---------------
+chicken
+half-chicken
+---------------
+mean is not a function error
+
+-------------------
+disco
+ rock
+ r&b 
+disco
+-------------------
+San jose
+seeatle
+burbank
+san jose
+--------------------
+{name: 'Chicago', students: 65, hiring: true} for the first console
+Error for the second console due to new assignment for constant variable dojo <, it was an objects and we tried to convert the type to String
