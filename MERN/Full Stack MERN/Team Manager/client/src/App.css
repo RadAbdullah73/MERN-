@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+table{
+  margin-left: 350px;
+  margin-top: 30px;
+}
+td{
+  width: 200px;
+}
+.mn{
+  text-decoration: none;
+}
+button{
+  width: 200px;
+}
+*{
+  font-family: cursive;
+}
