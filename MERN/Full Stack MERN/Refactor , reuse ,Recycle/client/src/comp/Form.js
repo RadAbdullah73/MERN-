@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios';
 
 const Form = (props) => {
-    const { initialTitle, initialDescreption,initialPrice, onSubmitProp } = props;
+    const {initialTitle, initialDescreption,initialPrice, onSubmitProp } = props;
     const [title, setTitle] = useState(initialTitle);
     const [descreption, setDescreption] = useState(initialDescreption);
     const [price, setPrice] = useState(initialPrice);
