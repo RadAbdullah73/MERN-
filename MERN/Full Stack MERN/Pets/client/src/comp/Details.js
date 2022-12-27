@@ -12,16 +12,20 @@ const Details = (props) => {
             .then(res => {
                 setPet(res.data);
                 setLoaded(true);
+                console.log("hiiiiiiiiii")
                
 
             })
             .catch(err => console.error(err));
-    });
+    },[]);
 
     const increaseOne=(num) => {
         axios.put('http://localhost:8000/api/users/update/'+ id, {'like' : num+1})
-            .then(res =>console.log(res) 
-            )
+            .then(res =>{
+            console.log("zzzzzzzzzz")
+            setPet({...pet , like:num+1})
+        
+        })
             .catch(err=>console.log(err));
 
 
@@ -51,11 +55,7 @@ const Details = (props) => {
                         <td>{pet.skills.skill2}</td>
                         <td>{pet.skills.skill3}</td>
                     </tr>
-                </table>
-
-
-           
-                
+                </table>           
             </h3>
             <DeleteButton personId={id}  /> </> }
         </div>

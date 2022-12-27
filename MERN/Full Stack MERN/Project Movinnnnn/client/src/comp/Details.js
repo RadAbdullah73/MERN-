@@ -17,12 +17,15 @@ const Details = (props) => {
 
             })
             .catch(err => console.error(err));
-    });
+    },[]);
 
     const increaseOne=(num) => {
         axios.put('http://localhost:8000/api/users/update/'+ id, {'like' : num+1})
-            .then(res =>console.log("zzzzzzzzzz") 
-            )
+            .then(res =>{
+            console.log("zzzzzzzzzz")
+            setPet({...pet , like:num+1})
+        
+        })
             .catch(err=>console.log(err));
 
 
